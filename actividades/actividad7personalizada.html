@@ -1,0 +1,48 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Actividad Propuesta</title>
+    </head>
+    <body>
+        <form action="http://www.example.com/subscribe.php">
+            <fieldset>
+                <legend>Sus datos: </legend>
+                <label>Nombre: <input type="text" name="username" /> </label> <br />
+                <label>Email: <input type="text" name="email" /> </label> <br />
+            </fieldset>
+
+            <fieldset>
+                <legend>Su opinión: </legend> <br />
+                <p> ¿Cómo se enteraron de nosotros?
+                    <select name="devices">
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="whatsapp">Whatsapp</option>
+                        <option value="twitter">Twitter</option>
+                    </select>
+                </p>
+
+                <p>¿Volvería a visitarnos?
+                    <br />
+                    <input type="radio" name="genre" value="si" checked="checked" /> Si
+                    <input type="radio" name="genre" value="no" /> No
+                    <input type="radio" name="genre" value="quizaz" /> Quizas
+                </p>
+
+                <p>Comentarios: <br /> 
+                    <textarea name="comments" cols="40" rows="5">Ingrese sus comentarios...</textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" name="service" value="Inscribete" checked="checked" />
+                    Inscríbete para actualizaciones por correo electrónico.
+                </p>
+
+                <p>
+                    <input type="image" src="images/enviado.gif" width="100" height="100" />
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
